@@ -1,0 +1,30 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 5 feb 2024, 21:35:52
+    Author     : portu
+*/
+
+body{
+    width:900px;
+    margin:auto;
+    background-color:#F2F0D5;
+}
+
+h1{
+    background-color:#F24535;
+    color:black;
+    text-align: center;
+ 
+}
+
+h2{
+    text-align: center;
+}
+
+nav li{
+    display:inline-block;
+    padding:5px;
+}

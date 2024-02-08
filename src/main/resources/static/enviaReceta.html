@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Cocina Creativa</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/estilo.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+
+        <h1>Cocina Creativa</h1>
+
+        <header class="header">
+            <nav>
+                <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="recetasDestacada.html">Recetas Destacadas</a></li>
+                <li><a href="categorias.html">Categorías de cocina</a></li>
+                <li><a href="temporadas.html">Temporadas de cocina</a></li>
+                <li><a href="comunidad.html">Comunidad</a></li>
+                <li><a href="recetasSaludables.html">Recetas Saludables</a></li>
+                <li><a href="recetasRapidas.html">Recetas Rapidas y Faciles</a></li>
+                <li><a href="enviaReceta.html">Envia tu receta</a></li>
+
+                </ul>
+            </nav>
+        </header>
+
+        <aside class="aside">
+            <h2 class="formulario">Envia tu receta</h2>
+            <p>¡Tu creatividad es la clave de nuestro rincón culinario! Comparte tu receta única y deliciosa con nosotros a través de nuestro formulario "Envía Tu Receta". Nos encantaría conocer tus creaciones y compartirlas con la comunidad. Ya sea un platillo tradicional que ha pasado por generaciones o una innovadora combinación que acabas de descubrir. ¡Envía tu receta hoy y sé parte de la diversidad culinaria que hace que nuestra comunidad sea tan especial! </p>
+        </aside>
+
+        <section class="section">
+            <article>
+                <header>
+                    <h3>Formulario de Receta</h3>
+                </header>
+
+                <form action="#" method="post" enctype="multipart/form-data">
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre" required><br>
+
+                    <label for="apellido">Apellido:</label><br>
+                    <input type="text" id="apellido" name="apellido" required><br>
+
+                    <label for="ciudad">Ciudad:</label><br>
+                    <input type="text" id="ciudad" name="ciudad" required><br>
+
+                    <label for="comentario">Comentario o Receta:</label><br>
+                    <textarea id="comentario" name="comentario" rows="4" required></textarea><br>
+
+                    <label for="foto">Subir Foto:</label><br>
+                    <input type="file" id="foto" name="foto" accept="image/*"><br>
+
+                    <input type="submit" value="Enviar">
+                </form>
+            </article>
+        </section>
+    </body>
+</html>
